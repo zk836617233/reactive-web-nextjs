@@ -71,7 +71,7 @@ export const footerTruckAnim = {
     x: 0,
     transition: { type: "spring", duration: 2 },
   },
-  staggerTextContainer,
+  // staggerTextContainer,
 };
 
 export const fadeInDown = {

@@ -3,7 +3,7 @@ import { HiOutlinePlus, HiOutlineMinus } from "react-icons/hi";
 import { motion } from "framer-motion";
 import { fadeInRight } from "@/variants";
 
-const Accordion: React.FC = ({ accordion }: any) => {
+const Accordion: React.FC<any> = ({ accordion }) => {
   const { question, answer } = accordion;
   const [isOpen, setIsOpen] = useState(false);
   return (
