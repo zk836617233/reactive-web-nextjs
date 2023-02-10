@@ -36,3 +36,15 @@ export interface HowDataType {
   subtitle: string;
   title: string;
 }
+
+export interface AccordionsType {
+  question: string;
+  answer: string;
+}
+
+export interface FaqDataType {
+  pretitle: string;
+  title: string;
+  boyImg: string;
+  accordions: AccordionsType[];
+}

@@ -5,6 +5,9 @@ import Hero from "@/components/Hero";
 import About from "@/components/About";
 import How from "@/components/How";
 import Faq from "@/components/Faq";
+import Testimonials from "@/components/Testimonials";
+import Footer from "@/components/Footer";
+import Copyright from "@/components/Copyright";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -25,9 +28,10 @@ export default function Home() {
         />
         <About aboutData={data.aboutData} />
         <How howData={data.howData} />
-        <Faq faq={data.faqData} />
-
-        <div className="h-[2000px]"></div>
+        <Faq faqData={data.faqData} />
+        <Testimonials testimonialData={data.testimonialData} />
+        <Footer footerData={data.footerData} />
+        <Copyright />
       </div>
     </>
   );
